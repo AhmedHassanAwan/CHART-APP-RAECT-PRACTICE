@@ -9,7 +9,7 @@ import { onAuthStateChanged, signOut } from "firebase/auth";
 import { push, ref, onValue } from "firebase/database";
 import { auth, db } from './config';
 import { useNavigate } from 'react-router-dom';
-import './chart.css'; // Create this CSS file
+import './Chart.css'; // Create this CSS file
 
 function Chart() {
   const [input, setinput] = useState("");
